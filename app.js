@@ -26,7 +26,7 @@ app.use(bodyParser.json()); // for parsing application/json
 
 // what host and port should we listen on?
 //var _host = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';  // host to listen on
-var _port = 80;       // port to listen on
+var _port = 8080;       // port to listen on
 
 //-----------------------------------------------------------------------------
 // return code definitions, used in json responses {"RC": _rcOK}  
