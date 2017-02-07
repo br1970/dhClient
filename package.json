@@ -16,5 +16,5 @@
 	"engines": { "node": "0.10.*" },
 	"repository": {},
 
-        "scripts": { "start": "node dhclient.js" }
+        "scripts": { "start": "node app.js" }
 }
