@@ -14,7 +14,7 @@ var express      = require('express');
 var bodyParser   = require('body-parser');
 var request      = require('request');
 var mongoClient  = require('mongodb').MongoClient;
-var helper       = require('./dhCommon/helpers'); // include helper functions from helpers.js
+var helper       = require('./helpers'); // include helper functions from helpers.js
 
 //-----------------------------------------------------------------------------
 // Set up express                                    
